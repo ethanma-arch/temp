@@ -1,6 +1,22 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: 东南大学现代建筑理论
+description: 东南大学现代建筑理论 ｜ 课程通知、资料发布、答疑记录
 theme: just-the-docs
+
+lang: zh-CN
+encoding: utf-8
+
+search_enabled: true
+search.tokenizer_separators: /[\s/]+ /
+
+nav_sort: case_insensitive
+
+nav:
+  -首页: index.md
+  -课程通知: notice.md
+  -课程资料: course.md
+  -答疑记录: qna.md
+  -课程大纲: syllabus.md
+  -参考书目: reference.md
 
 url: https://just-the-docs.github.io
 
